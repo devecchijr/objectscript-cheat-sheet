@@ -70,10 +70,10 @@ Display array, list string, bit string, JSON object/array (v2019.1+)|ZWrite
 ## Date/Time Functions
 Description | Command 
 ---------|----------
-Date conversion (internal à external)|$zdate(internalDate, format)
-Date conversion (external à internal)|$zdateh(“mm/dd/yyyy”)
-Time conversion (internal à external)|$ztime(internalTime, format)
-Time conversion (external à internal)|$ztimeh(“hh:mm:ss”)
+Date conversion (internal -> external)|$zdate(internalDate, format)
+Date conversion (external -> internal)|$zdateh(“mm/dd/yyyy”)
+Time conversion (internal -> external)|$ztime(internalTime, format)
+Time conversion (external -> internal)|$ztimeh(“hh:mm:ss”)
 |Current local date/time string|$horolog
 |Current UTC date/time string|$ztimestamp
 
